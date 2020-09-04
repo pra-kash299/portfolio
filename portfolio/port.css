@@ -1,0 +1,96 @@
+body {
+    background-image:url('port1.jpg');
+    margin: 0px;
+   padding: 0px;
+   height: 1500px;
+}
+div.navi{
+    position:fixed;
+}
+.navbar{
+    background-color: chartreuse;
+    border: 2px solid red;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 6px;
+   
+}
+.navbar li{ float:left;
+    list-style: none;
+    padding-left: 70px;
+    margin-left: 280px;
+    
+}
+.navbar ul{
+    overflow:auto;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size :20px;
+    color: rgb(236, 10, 10);
+    
+    
+}
+.navbar li a:hover{
+    text-decoration:underline;
+    color: rgb(28, 8, 202);
+    background-color: yellowgreen;
+    
+}
+#tre{
+    position: fixed;
+    top:10px;
+    right:80px;
+    width:130px;
+    text-align: center;
+    border-radius: 4px;
+  }
+#tyu{
+    position: fixed;
+    top:10px;
+    right:480px;
+    width:130px;
+    text-align: center;
+}
+#bit{
+    position: fixed;
+    top:10px;
+    right:780px;
+    width:130px;
+    text-align: center; 
+}
+#bee{
+    position: fixed;
+    top:10px;  
+    width:130px;
+    left:30px;
+    text-align: center; 
+}
+.free4 h3{
+    position:fixed;
+    left:35px;
+    top:30px;
+    font-size:45px ;
+    color:whitesmoke;
+    font-family: cursive;
+}
+ .free4 h1{ position:fixed;
+    top:50px;
+    left:135px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 90px;
+    color:red;
+}
+.free4 p{
+    position:fixed;
+    top:180px;
+    left:285px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 30px;
+    color:black;
+}
+.free5{
+    position:fixed;
+    top:50px;
+    right:0px;
+}
